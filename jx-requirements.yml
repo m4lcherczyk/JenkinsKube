@@ -20,11 +20,11 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: "jenkins.m4lcherczyk.com"
-    externalDNS: false
+    domain: 192.168.49.2.nip.io
+    kind: ingress
     namespaceSubDomain: -jx.
     tls:
-      email: "admin@example.com"
+      email: admin@example.com
       enabled: true
       production: false
   repository: bucketrepo

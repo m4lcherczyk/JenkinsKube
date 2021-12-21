@@ -60,5 +60,7 @@ releases:
   values:
   - ../../versionStream/charts/jxgh/health-checks-jx/values.yaml.gotmpl
   - jx-values.yaml
+- chart: helmfile.yaml
+  name: helmfile.yaml
 templates: {}
 renderedvalues: {}
